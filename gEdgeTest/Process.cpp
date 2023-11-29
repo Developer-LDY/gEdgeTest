@@ -145,7 +145,7 @@ void CProcess::getEdge(CRect rect, double *t, double *a, double *b) {
 			pX_Vertical[i - rect.top] = dEdge + rect.left;
 			pY_Vertical[i - rect.top] = i;
 
-			edge.LineFitting(rect.Height(), pX_Vertical, pY_Vertical, rect.Height()*0.2, 0.1, t, a, b);
+			edge.LineFitting(rect.Height(), pX_Vertical, pY_Vertical, rect.Height()*0.5, 0.1, t, a, b);
 		}
 
 	}
